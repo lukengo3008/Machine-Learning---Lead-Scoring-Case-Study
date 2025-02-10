@@ -4,7 +4,7 @@
 We observe that some of the categorical variables have a level called 'Select', which must be handled 
 because it is as good as a null value. We handled the missing values using techniques such as mode 
 and dropping rows/columns. Specifically, we dropped the columns with missing values that are 
-over 40%. With columns with moderate missing values: - - - 
+over 40%. With columns with moderate missing values: 
 Impute missing values with mode. 
 Create “Others” category for insignificant values. 
 Drop other columns if the values fall into only one unique value. 
